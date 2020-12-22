@@ -1,0 +1,55 @@
+<html>
+	<head><title>Feedback</title></head>
+	<style>
+		body{
+		background-image:url("Reseda.jpg");
+		font-family:Agency FB;
+		font-size:25;
+		}
+		
+		script{
+			background-image:url("Reseda.jpg");
+			font-family:Agency FB;
+			font-size:25;
+			align:center;
+		}
+	</style>
+	
+	<body>
+	<h1 align=center>Quick Survey Section</h1>
+		<p align=center>Welcome to my Quick Survey Section.In this section you can share your feedback about my website.</p>
+		<p align=center>Your feedback will be useful for my website improvement in the future</p>
+		<table border=1 cellpadding=10 align=center>
+			<tr><td><label>Name:</label></td><td><input type="text" id="name" name="name"></td></tr>
+			<tr><td><label>Do you prefer:</label></td><td><input type="radio" id="rate" name="rate">Mixed genre
+																 <input type="radio" id="rate" name="rate">Soft Indie 
+																 <input type="radio" id="rate" name="rate">Alternate 
+																 <input type="radio" id="rate" name="rate">Rock and heavy metal
+																 <input type="radio" id="rate" name="rate">Classic
+																 <input type="radio" id="rate" name="rate">Pop/Modern pop
+																 <input type="radio" id="rate" name="rate">Others</td></tr>
+			<tr><td><label>My songs suggestion is:</label></td><td><input type="checkbox" id="issue" name="issue">All same genre
+																						   <br>
+																						   <input type="checkbox" id="issue" name="issue">Inappropriate
+																						   <br>
+																						   <input type="checkbox" id="issue" name="issue">Bored and lame
+																						   <br>
+																						   <input type="checkbox" id="issue" name="issue">Has harsh lyric
+																						   <br>
+																						   <input type="checkbox" id="issue" name="issue">Too slow 
+																						   <br>
+																						   <input type="checkbox" id="issue" name="issue">Too loud and extreme</td><tr>
+			<tr><td><label>Comment/Suggestion:</label></td><td><textarea name="comment" rows="4" cols="40"></textarea></td></tr>	
+			<tr><td></td><td align=center><input type="submit" id="submit" onclick="submit()"></input>
+			<a href="index.html">Back</href></td></tr>
+					
+		</table>
+			<script>
+				function submit(){
+					 document.write("Your feedback has been recorded.");
+					 document.write("Refresh and click Back to go to main page");
+					 }
+					 </script>
+	</body>
+</html>
+		
